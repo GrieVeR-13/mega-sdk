@@ -30,6 +30,11 @@
 # Gradle:
 .idea/gradle.xml
 .idea/libraries
+.idea/AndroidProjectSystem.xml
+.idea/compiler.xml
+.idea/deploymentTargetSelector.xml
+.idea/migrations.xml
+.idea/migrations.xml
 .gradle
 
 ## File-based project format:
