@@ -47,3 +47,15 @@ Open the project with Android Studio, let it build the project and hit _*Run*_
 ### Notes
 
 To compile the MEGA SDK (required for this example), the building scripts consider that the Android example is located inside the SDK folder: `<sdk>/examples/android/ExampleApp`. In case you want to copy the example to a different path of your choice, you need to place a copy of the SDK in the folder `<your_path>/ExampleApp/app/src/main/jni/mega` (or you can clone the repository, so you can keep the SDK up to date).
+
+Example:
+export NDK_ROOT=/home/user/Android/Sdk/ndk/27.1.12297006
+export ANDROID_HOME=/home/user/Android/Sdk
+export JAVA_HOME=/home/user/Prog/android-studio/jbr
+export LOG_FILE=/dev/stdout
+./build.sh all
+
+outputs:
+bindings/java
+examples/android/ExampleApp/app/src/main/java/nz/mega/sdk
+examples/android/ExampleApp/app/src/main/jniLibs
